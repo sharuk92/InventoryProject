@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Country extends GeoEntity {
+public class Country extends Area<City> {
 
 	public Country(String name, City[] cities) {
 		super(name, cities);
