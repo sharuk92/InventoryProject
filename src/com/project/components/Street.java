@@ -1,9 +1,9 @@
 package com.project.components;
 
-public class Street extends Area<Area<?>> {
+public class Street extends Area<Building> {
 
-	public Street(String name) {
-		super(name, new Area[0]);
+	public Street(String name, Building[] buildings) {
+		super(name, buildings);
 	}
 
 }
