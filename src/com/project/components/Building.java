@@ -1,10 +1,11 @@
 package com.project.components;
 
+public class Building extends Area<Room>{
 
-public class Building extends Area<Area<?>>{
-
-	protected Building(String name) {
-		super(name, new Area[0]);
+	protected Building(String name, Room[] rooms) {
+		super(name, rooms);
 	}
-
+	
 }
+
+
