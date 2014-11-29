@@ -2,7 +2,7 @@ package com.project.components;
 
 
 
-public class Country {
+public class Country extends GeoEntity {
 
 
 	private City[] cities;
